@@ -36,5 +36,12 @@ namespace PedidosApp
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+
+        private void btnVerHistorial_Click(object sender, EventArgs e)
+        {
+            new FrmHistorial().ShowDialog();
+        }
+
+      
     }
 }

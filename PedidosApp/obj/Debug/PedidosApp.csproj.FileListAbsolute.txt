@@ -8,3 +8,4 @@ C:\Users\Marcela\source\repos\PedidosApp\PedidosApp\obj\Debug\PedidosApp.csproj.
 C:\Users\Marcela\source\repos\PedidosApp\PedidosApp\obj\Debug\PedidosApp.csproj.CoreCompileInputs.cache
 C:\Users\Marcela\source\repos\PedidosApp\PedidosApp\obj\Debug\PedidosApp.exe
 C:\Users\Marcela\source\repos\PedidosApp\PedidosApp\obj\Debug\PedidosApp.pdb
+C:\Users\Marcela\source\repos\PedidosApp\PedidosApp\obj\Debug\PedidosApp.FrmHistorial.resources
