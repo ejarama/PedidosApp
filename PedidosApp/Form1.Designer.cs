@@ -42,6 +42,7 @@ namespace PedidosApp
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnVerHistorial = new System.Windows.Forms.Button();
             this.lblTituloForm1 = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDistancia)).BeginInit();
             this.SuspendLayout();
@@ -166,14 +167,13 @@ namespace PedidosApp
             this.lblResultado.Location = new System.Drawing.Point(27, 195);
             this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(63, 15);
+            this.lblResultado.Size = new System.Drawing.Size(0, 15);
             this.lblResultado.TabIndex = 10;
-            this.lblResultado.Text = "Resultado";
             // 
             // btnVerHistorial
             // 
             this.btnVerHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerHistorial.Location = new System.Drawing.Point(544, 184);
+            this.btnVerHistorial.Location = new System.Drawing.Point(544, 219);
             this.btnVerHistorial.Margin = new System.Windows.Forms.Padding(2);
             this.btnVerHistorial.Name = "btnVerHistorial";
             this.btnVerHistorial.Size = new System.Drawing.Size(94, 36);
@@ -193,11 +193,24 @@ namespace PedidosApp
             this.lblTituloForm1.TabIndex = 12;
             this.lblTituloForm1.Text = "Pedidos";
             // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(544, 164);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(94, 36);
+            this.btnLimpiar.TabIndex = 13;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(687, 326);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lblTituloForm1);
             this.Controls.Add(this.btnVerHistorial);
             this.Controls.Add(this.lblResultado);
@@ -236,6 +249,7 @@ namespace PedidosApp
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnVerHistorial;
         private System.Windows.Forms.Label lblTituloForm1;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
 

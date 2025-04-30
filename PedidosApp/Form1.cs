@@ -48,7 +48,7 @@ namespace PedidosApp
                 RegistroPedidos.Instancia.AgregarPedido(pedido);
                 lblResultado.Text = $"Entrega: {pedido.MetodoEntrega.TipoEntrega()} " +
                                     $"Costo: ${pedido.ObtenerCosto():0.00}";
-                limpiarCampos();
+                //limpiarCampos();
             }
             catch (Exception ex)
             {
@@ -68,7 +68,12 @@ namespace PedidosApp
             chkUrgente.Checked = false;
             nudPeso.Value = nudPeso.Minimum;
             nudDistancia.Value = nudDistancia.Minimum;
+            lblResultado.Text = string.Empty;
         }
-      
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            limpiarCampos();
+        }
     }
 }
