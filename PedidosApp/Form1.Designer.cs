@@ -49,7 +49,7 @@ namespace PedidosApp
             // txtCliente
             // 
             this.txtCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCliente.Location = new System.Drawing.Point(224, 74);
+            this.txtCliente.Location = new System.Drawing.Point(130, 75);
             this.txtCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(133, 21);
@@ -59,7 +59,7 @@ namespace PedidosApp
             // 
             this.lblCliente.AutoSize = true;
             this.lblCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCliente.Location = new System.Drawing.Point(121, 77);
+            this.lblCliente.Location = new System.Drawing.Point(27, 78);
             this.lblCliente.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCliente.Name = "lblCliente";
             this.lblCliente.Size = new System.Drawing.Size(93, 15);
@@ -74,7 +74,7 @@ namespace PedidosApp
             "tecnología",
             "accesorio",
             "componente"});
-            this.cmbProducto.Location = new System.Drawing.Point(428, 73);
+            this.cmbProducto.Location = new System.Drawing.Point(130, 114);
             this.cmbProducto.Margin = new System.Windows.Forms.Padding(2);
             this.cmbProducto.Name = "cmbProducto";
             this.cmbProducto.Size = new System.Drawing.Size(133, 23);
@@ -84,7 +84,7 @@ namespace PedidosApp
             // 
             this.lblProducto.AutoSize = true;
             this.lblProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProducto.Location = new System.Drawing.Point(370, 77);
+            this.lblProducto.Location = new System.Drawing.Point(27, 122);
             this.lblProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblProducto.Name = "lblProducto";
             this.lblProducto.Size = new System.Drawing.Size(56, 15);
@@ -95,7 +95,7 @@ namespace PedidosApp
             // 
             this.chkUrgente.AutoSize = true;
             this.chkUrgente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkUrgente.Location = new System.Drawing.Point(131, 121);
+            this.chkUrgente.Location = new System.Drawing.Point(544, 72);
             this.chkUrgente.Margin = new System.Windows.Forms.Padding(2);
             this.chkUrgente.Name = "chkUrgente";
             this.chkUrgente.Size = new System.Drawing.Size(70, 19);
@@ -106,7 +106,7 @@ namespace PedidosApp
             // nudPeso
             // 
             this.nudPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudPeso.Location = new System.Drawing.Point(308, 122);
+            this.nudPeso.Location = new System.Drawing.Point(412, 72);
             this.nudPeso.Margin = new System.Windows.Forms.Padding(2);
             this.nudPeso.Name = "nudPeso";
             this.nudPeso.Size = new System.Drawing.Size(60, 21);
@@ -116,7 +116,7 @@ namespace PedidosApp
             // 
             this.lblPeso.AutoSize = true;
             this.lblPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeso.Location = new System.Drawing.Point(221, 124);
+            this.lblPeso.Location = new System.Drawing.Point(312, 77);
             this.lblPeso.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPeso.Name = "lblPeso";
             this.lblPeso.Size = new System.Drawing.Size(70, 15);
@@ -129,7 +129,7 @@ namespace PedidosApp
             this.lblDistancia.AutoSize = true;
             this.lblDistancia.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.lblDistancia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDistancia.Location = new System.Drawing.Point(386, 125);
+            this.lblDistancia.Location = new System.Drawing.Point(299, 122);
             this.lblDistancia.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDistancia.Name = "lblDistancia";
             this.lblDistancia.Size = new System.Drawing.Size(97, 15);
@@ -141,7 +141,7 @@ namespace PedidosApp
             this.nudDistancia.AllowDrop = true;
             this.nudDistancia.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.nudDistancia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudDistancia.Location = new System.Drawing.Point(487, 123);
+            this.nudDistancia.Location = new System.Drawing.Point(412, 116);
             this.nudDistancia.Margin = new System.Windows.Forms.Padding(2);
             this.nudDistancia.Name = "nudDistancia";
             this.nudDistancia.Size = new System.Drawing.Size(60, 21);
@@ -150,10 +150,10 @@ namespace PedidosApp
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(224, 173);
+            this.btnCalcular.Location = new System.Drawing.Point(544, 111);
             this.btnCalcular.Margin = new System.Windows.Forms.Padding(2);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(78, 36);
+            this.btnCalcular.Size = new System.Drawing.Size(94, 36);
             this.btnCalcular.TabIndex = 9;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -163,7 +163,7 @@ namespace PedidosApp
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(121, 242);
+            this.lblResultado.Location = new System.Drawing.Point(27, 195);
             this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(63, 15);
@@ -173,7 +173,7 @@ namespace PedidosApp
             // btnVerHistorial
             // 
             this.btnVerHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerHistorial.Location = new System.Drawing.Point(389, 173);
+            this.btnVerHistorial.Location = new System.Drawing.Point(544, 184);
             this.btnVerHistorial.Margin = new System.Windows.Forms.Padding(2);
             this.btnVerHistorial.Name = "btnVerHistorial";
             this.btnVerHistorial.Size = new System.Drawing.Size(94, 36);
@@ -186,7 +186,7 @@ namespace PedidosApp
             // 
             this.lblTituloForm1.AutoSize = true;
             this.lblTituloForm1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloForm1.Location = new System.Drawing.Point(317, 25);
+            this.lblTituloForm1.Location = new System.Drawing.Point(298, 23);
             this.lblTituloForm1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTituloForm1.Name = "lblTituloForm1";
             this.lblTituloForm1.Size = new System.Drawing.Size(79, 24);

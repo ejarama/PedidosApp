@@ -38,6 +38,7 @@ namespace PedidosApp
             // 
             // dgvHistorial
             // 
+            this.dgvHistorial.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvHistorial.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHistorial.Location = new System.Drawing.Point(38, 102);
             this.dgvHistorial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
